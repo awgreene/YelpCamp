@@ -1,0 +1,23 @@
+{
+  "name": "yelp-camp",
+  "version": "1.0.0",
+  "description": "Review campsites online with our killer tool!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awgreene/YelpCamp.git"
+  },
+  "author": "Alexander W. Greene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awgreene/YelpCamp/issues"
+  },
+  "homepage": "https://github.com/awgreene/YelpCamp#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
