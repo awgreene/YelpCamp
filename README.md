@@ -15,3 +15,7 @@
 * Add in body-parser
 * Setup route to show form
 * Add basic unstyled form
+
+#Stlye the NavBar and Form
+* Add a navbar to all templates
+* Style the new campground form
