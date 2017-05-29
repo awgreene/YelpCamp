@@ -10,7 +10,7 @@
 * Create our header and footer partials
 * Add in Bootstrap
 
-#Createing New Campgours
+#Creating New Campgours
 * Setup new campground POST route
 * Add in body-parser
 * Setup route to show form
@@ -19,3 +19,29 @@
 #Stlye the NavBar and Form
 * Add a navbar to all templates
 * Style the new campground form
+
+#Intro to MongoDB
+* What is MongoDB
+* Why are we using it
+* Let's install it
+
+#Our First Mongo Commands
+* mongod
+* mongo
+* help
+* show dbs
+* use
+* insert
+* find
+* update
+* remove
+
+#Mongoose
+* What is Mongoose?
+* Why are we using it?
+* Interact with a Mongo Database using Mongoose
+
+#Add Mongoose
+* Install and configure Mongoose
+* Setup campground model
+* Use campground model inside our routes!
