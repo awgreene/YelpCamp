@@ -51,3 +51,17 @@
 * Add description to our campground model
 * Show db.collection.drop
 * Add a show route/template
+
+#RESTful Routing
+* Define REST and explain WHY it matters
+* List all 7 RESTful routes
+* Show examples of RESTful routing in practice
+
+#Refactor Mongoose Code
+* Create a models directory
+* Use module.exports
+* Require everything correctly
+
+#Add Seeds file
+* Add a seed.js file
+* Run the seeds file everytime the server starts
