@@ -64,4 +64,9 @@
 
 #Add Seeds file
 * Add a seed.js file
+    * Seeds file resets the db to a predefined initial state
 * Run the seeds file everytime the server starts
+
+#Add the Comment model!
+* Make errors go away
+* Display comments on campground page

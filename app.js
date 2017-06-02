@@ -2,7 +2,9 @@ var express    = require("express"),
     app        = express(),
     bodyParser = require("body-parser"),
     mongoose   = require("mongoose"),
-    Campground = require("./models/campground");
+    Campground = require("./models/campground"),
+    SeedDB     = require("./seeds");
+SeedDB();
     
     
 app.use(bodyParser.urlencoded({extended : true}));
@@ -21,6 +23,7 @@ app.get("/", function(req, res) {
     res.render("landing");
 });
 
+// INDEX - Show all campgrounds
 app.get("/campgrounds", function(req, res) {
    //Get all campgrounds from db
    Campground.find({}, function(err, campgrounds){
@@ -33,6 +36,7 @@ app.get("/campgrounds", function(req, res) {
    });
 });
 
+// CREATE - Add a new campground to db
 app.post("/campgrounds", function(req, res) {
     // get data from form and add to campgrounds array
     var name = req.body.name;
@@ -51,13 +55,15 @@ app.post("/campgrounds", function(req, res) {
     });
 });
 
+// NEW - Show form to create a new campground
 app.get("/campgrounds/new", function(req, res){
    res.render("new.ejs"); 
 });
 
+// SHOW - Show more info about a single campground 
 app.get("/campgrounds/:id", function(req, res) {
     //res.send("This will be the show page some day");
-    Campground.findById(req.params.id, function(err, foundCampground) {
+    Campground.findById(req.params.id).populate("comments").exec(function(err, foundCampground) {
         if(err) {
             console.log(err);
         } else {
