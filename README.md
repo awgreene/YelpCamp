@@ -83,3 +83,12 @@
 ##Add user model
 * Install all packages needed for auth
 * Define user model
+
+##Auth pt. 2 - Register
+* Configure passport
+* Add register routes
+* Add register templates
+
+##Auth pt. 3 - Login
+* Add login templates
+* Add login routes
