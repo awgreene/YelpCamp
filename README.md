@@ -79,3 +79,7 @@
 #Style Show Page
 * Add sidebar to show page
 * Display comments nicely
+
+##Add user model
+* Install all packages needed for auth
+* Define user model
