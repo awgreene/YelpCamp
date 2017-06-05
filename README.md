@@ -98,3 +98,13 @@
 * Prevent user from adding a comment if not signed in
 * Add links to navbar
 * Show / hide auth links correctly
+
+##Auth pt. 5 - Show / Hide links
+* Show / hide links in the navbar
+
+##Refactor the routes
+* Use express router to organize all the routes
+
+##Users + Comments
+* Associate users and comments
+* Save author's name to a comment automatically

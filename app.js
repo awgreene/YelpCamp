@@ -13,7 +13,7 @@ var express    = require("express"),
     campgroundRoutes = require( "./routes/campgrounds"),
     indexRoutes = require("./routes/index");
     
-SeedDB();
+//SeedDB();
 
 // PASSPORT CONFIG
 app.use(require("express-session")({
