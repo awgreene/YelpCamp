@@ -112,3 +112,10 @@
 ##Users + Campgrounds
 * Prevent an unathenticated user from creating a campground
 * Save username+id to newly created campground
+
+#Editing Campgrounds
+* Add Method-Override
+* Add edit route for campgrounds
+* Add link to edit page
+* Add update route
+* Fix $set problem
