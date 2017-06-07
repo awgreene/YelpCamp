@@ -119,3 +119,12 @@
 * Add link to edit page
 * Add update route
 * Fix $set problem
+
+#Deleting Campgrounds
+* Add destroy route
+* Add delete button
+
+#Authorization
+* User can only edit his or her campgrounds
+* User can only delete his or her campgrounds
+* Hide / show edit and delete buttons
