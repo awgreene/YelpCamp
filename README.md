@@ -124,7 +124,16 @@
 * Add destroy route
 * Add delete button
 
-#Authorization
+#Authorization Part 1: Campgrounds
 * User can only edit his or her campgrounds
 * User can only delete his or her campgrounds
 * Hide / show edit and delete buttons
+
+#Editing Comments
+* Add edit route for comments
+* Add edit button
+* Add Update Route
+
+#Deleting Comments
+* Add destroy route
+* Add delete button
