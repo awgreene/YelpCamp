@@ -137,3 +137,14 @@
 #Deleting Comments
 * Add destroy route
 * Add delete button
+
+#Authorization Part 2: Comments
+* User can only edit his or her comments
+* User can only delete his or her comments
+* Hide / show edit and delete buttons
+* Refactor Middleware
+
+#Adding in Flash!
+* Demo working version
+* Install and configure connect-flash
+* Add bootstrap alerts to header
