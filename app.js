@@ -33,7 +33,9 @@ app.use(express.static(__dirname + "/public"))
 app.set("view engine", "ejs");
 app.use(methodOverride("_method"));
 app.use(flash());
-mongoose.connect("mongodb://localhost/yelp_camp");
+//mongoose.connect("mongodb://localhost/yelp_camp");
+
+mongoose.connect("mongodb://admin:testing123@ds113650.mlab.com:13650/yelpcamp1991");
 
 app.use(function(req, res, next) {
     res.locals.currentUser = req.user;
